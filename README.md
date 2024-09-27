@@ -1,6 +1,8 @@
-# Cryptoverse ₿💰🤑
+# (Cryptoverse)[https://cryptoverse2x.netlify.app/] ₿💰🤑
 
 *Cryptoverse* is a *React web application* that displays *real-time data about various Cryptocurrencies* 💰. It allows users to search for specific coins, view detailed information, and explore the top 100 coins based on market capitalization in multiple currencies.
+
+# (See Crypto Price)[https://cryptoverse2x.netlify.app/]
 
 ## Installation
 
