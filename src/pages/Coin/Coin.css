@@ -1,0 +1,86 @@
+.spinner{
+    display: grid;
+    place-self: center;
+    min-height: 80vh;
+}
+.spin{
+    width: 65px;
+    height: 65px;
+    place-self: center;
+    border: 5px solid #bdbdbd;
+    border-top-color:#4500c6;
+    border-radius: 50%;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.coin {
+    display: flex; /* Keep flex for overall layout */
+    flex-direction: column;
+    align-items: center; /* Center elements vertically */
+    padding: 20px;
+  }
+.coin-name2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.coin-name-b {
+  font-size: 44px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.coin-name2 .coin-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Coin chart */
+.coin-chart {
+  width: 600px; /* Take up the full width */
+  height: 300px; /* Adjust height as needed */ 
+  margin-bottom: 20px;
+}
+
+/* Coin info list */
+.coin-info {
+  display: flex;
+  width: 600px;
+  padding: 200px auto;
+  flex-direction: column;
+}
+
+.coin-info ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  list-style: none;
+  border-bottom: 1px solid #3c3c3c;
+  text-align: center;
+  align-items: center;
+}
+
+.icon {
+    display: 'flex';
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.coin-info ul li {
+  font-size: 16px;
+  display: flex;
+}
+
+.coin-info ul li:first-child {
+  font-weight: bold; /* Bolden the list item label */
+}
