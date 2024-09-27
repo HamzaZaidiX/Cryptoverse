@@ -28,6 +28,12 @@ npm start
 - Displays detailed information about each coin, including realtime *Price, 24H change, Market cap*, and more.
 - Supports multiple currency conversions like *(PKR, USD, EURO, INR)*
 
+## Screenshots:
+![screenshot](https://github.com/user-attachments/assets/05b1d0ba-8c2a-4814-8e97-18c5c24143c8)
+![screenshot (2)](https://github.com/user-attachments/assets/be3996e6-baa5-43c2-a40b-24227532224a)
+![screenshot (1)](https://github.com/user-attachments/assets/069526ef-866c-433f-bdcb-2717055fd650)
+
+
 ## Code Structure
 
 - `src/components`: Contains React components for different sections of the application.
